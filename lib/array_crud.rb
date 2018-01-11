@@ -18,8 +18,7 @@ end
 
 def remove_element_from_end_of_array(array)
   array = ["I", "am", "really", "learning", "arrays!"]
-  array_pop = array.pop("array!")
-  puts array_pop("array!")
+  array_pop = array.pop
 end
 
 def remove_element_from_start_of_array(array)
